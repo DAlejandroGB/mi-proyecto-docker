@@ -3,7 +3,7 @@ _transform: true
 
 services:
   - name: backend-service
-    url: http://backend:8000
+    url: http://backend:8096
     routes:
       - name: backend-route
         paths:
@@ -15,7 +15,7 @@ services:
           - https
 
   - name: frontend-service
-    url: http://frontend:3000
+    url: http://frontend:4200
     routes:
       - name: frontend-route
         paths:
